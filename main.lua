@@ -6,7 +6,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
     end
 end)
----------------------------------add meer hier onder--------------------------------------------------------------
+---------------------------------add meer hier onder/ADD MORE--------------------------------------------------------------
 Citizen.CreateThread(function()
     while (true) do
 		ClearAreaOfPeds(00.0, 00.0, 00.0, 00.0, 1) ---locatie 
