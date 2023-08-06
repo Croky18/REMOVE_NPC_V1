@@ -1,0 +1,2 @@
+# clearareaNPC
+clearareaNPC
