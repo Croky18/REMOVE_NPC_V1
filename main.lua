@@ -1,5 +1,5 @@
-local currentVersion = "1.0" -- Huidige versie van je script
-local scriptUrl = "https://raw.githubusercontent.com/yourusername/yourrepository/master/script.lua" -- URL naar je GitHub-scriptbestand
+local currentVersion = "2.0" -- Huidige versie van je script
+local scriptUrl = "https://github.com/Croky18/clearareaNPC/blob/main/main.lua" -- URL naar je GitHub-scriptbestand
 
 local function CheckForScriptUpdate()
     PerformHttpRequest(scriptUrl, function(errorCode, resultData, resultHeaders)
