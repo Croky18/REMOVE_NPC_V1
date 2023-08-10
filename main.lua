@@ -1,38 +1,6 @@
 --gemaakt door croky#8472--> bij problemen DM mijn op discord
 --made by croky#8472--> if you have any problems DM my on discor
 
-local currentVersion = "2.1" -- Huidige versie van je script/-- Current version of your script
-local scriptUrl = "https://github.com/Croky18/clearareaNPC/blob/main/main.lua" --Niet Veranderen/--do not change
-
-local function CheckForScriptUpdate()
-    PerformHttpRequest(scriptUrl, function(errorCode, resultData, resultHeaders)
-        if errorCode == 200 then
-            local lines = {}
-            for line in resultData:gmatch("[^\r\n]+") do
-                table.insert(lines, line)
-            end
-
-            local remoteVersion = lines[1]
-            if remoteVersion and remoteVersion ~= currentVersion then
-                print("A new version is available: " .. remoteVersion)
-                print("Update available on: " .. scriptUrl)
-            else
-                print("You have the latest version of the script.")
-            end
-        else
-            print("Error checking for updates.")
-        end
-    end, "GET", "", {})
-end
-
-Citizen.CreateThread(function()
-    while true do
-        Citizen.Wait(60000) -- Controleer elke minuut op updates/-- Check for update every minutes
-
-        CheckForScriptUpdate()
-    end
-end)
-
 local zones = {
     {
         name = "zone1",
