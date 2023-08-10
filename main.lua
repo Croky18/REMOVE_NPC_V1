@@ -47,7 +47,7 @@ local zones = {
 
 Citizen.CreateThread(function()
     while true do
-        Citizen.Wait(60000) -- Wacht 1 seconde voordat opnieuw te controleren/---- Wait 1 second before checking again
+        Citizen.Wait(100) -- Wacht 1 seconde voordat opnieuw te controleren/---- Wait 1 second before checking again
 
         local playerCoords = GetEntityCoords(PlayerPedId())
         
