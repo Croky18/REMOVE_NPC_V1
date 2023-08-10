@@ -30,8 +30,6 @@ Citizen.CreateThread(function()
     end
 end)
 
--- Rest van je script hier...
-
 local zones = {
     {
         name = "zone1",
