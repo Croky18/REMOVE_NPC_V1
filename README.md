@@ -11,11 +11,20 @@ dit scripts werk op standeloon dat wil zeggen dat het werk op framwork
 QBCORE ESX
 --------------------------------------------
 INFO
-this scripts work on standeloon ie work on framwork
-QBCORE ESX 
+this scripts work on framwork:
+QBCORE ESX and standalone
 --------------------------------------------
-AND PASTE THAT INTO THE MAIN.LUA FILE AND PASTE YOUR LOCATION WHERE THE 000 IS
-don't change the 1 other don't work the location
+Install 
+copier dit stuk en zed dat onder de eerste zone
+local zones = {
+    {
+        name = "zone1",
+        center = vector3(-445.17, 6014.54, 31.72), 
+        distance = 16.0, -- Maximale afstand om als "in de zone/Maximum distance to as "in the zone
+        npcDelete = true, -- NPC's verwijderen in deze zone/Remove NPCs in this zone
+        vehicleDelete = false, -- Geparkeerde voertuigen verwijderen in deze zone/Remove parked vehicles in this zone
+    },
+    -- Voeg meer zones toe zoals hierboven
 
 [NIET MAG DOEN] [DO NOT]
 --------------------------------------------
@@ -26,4 +35,4 @@ this script is free will not be sold
 
 
 -update-
-ClearAreaNPC 1.0
+ClearAreaNPC V2.0
