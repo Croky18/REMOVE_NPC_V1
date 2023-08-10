@@ -1,3 +1,6 @@
+--gemaakt door croky#8472--> bij problemen DM mijn op discord
+--made by croky#8472--> if you have any problems DM my on discor
+
 local currentVersion = "2.0" -- Huidige versie van je script
 local scriptUrl = "https://github.com/Croky18/clearareaNPC/blob/main/main.lua" -- URL naar je GitHub-scriptbestand
 
