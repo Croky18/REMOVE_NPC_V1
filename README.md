@@ -1,5 +1,5 @@
 # clearareaNPC
-clearareaNPC
+#clearareaNPC V2.0
 
 
 gemaakt door croky#8472--> bij problemen DM mijn op discord
