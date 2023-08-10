@@ -1,7 +1,7 @@
 --gemaakt door croky#8472--> bij problemen DM mijn op discord
 --made by croky#8472--> if you have any problems DM my on discor
 
-local currentVersion = "2.2" -- Huidige versie van je script/-- Current version of your script
+local currentVersion = "2.1" -- Huidige versie van je script/-- Current version of your script
 local scriptUrl = "https://github.com/Croky18/clearareaNPC/blob/main/main.lua" --Niet Veranderen/--do not change
 
 local function CheckForScriptUpdate()
