@@ -1,8 +1,10 @@
 --gemaakt door croky#8472--> bij problemen DM mijn op discord
 --made by croky#8472--> if you have any problems DM my on discor
 
-local currentVersion = "2.0" -- Huidige versie van je script
+local currentVersion = "2.0"                                                   -- Huidige versie van je script
 local scriptUrl = "https://github.com/Croky18/clearareaNPC/blob/main/main.lua" -- URL naar je GitHub-scriptbestand
+
+local state = true
 
 local function CheckForScriptUpdate()
     PerformHttpRequest(scriptUrl, function(errorCode, resultData, resultHeaders)
@@ -26,7 +28,7 @@ local function CheckForScriptUpdate()
 end
 
 Citizen.CreateThread(function()
-    while true do
+    while state do
         Citizen.Wait(60000) -- Controleer elke minuut op updates
 
         CheckForScriptUpdate()
@@ -37,20 +39,20 @@ local zones = {
     {
         name = "zone1",
         center = vector3(-445.17, 6014.54, 31.72),
-        distance = 16.0, -- Maximale afstand om als "in de zone" te worden beschouwd
-        npcDelete = true, -- NPC's verwijderen in deze zone
+        distance = 16.0,       -- Maximale afstand om als "in de zone" te worden beschouwd
+        npcDelete = true,      -- NPC's verwijderen in deze zone
         vehicleDelete = false, -- Geparkeerde voertuigen verwijderen in deze zone
     },
-    
+
     -- Voeg meer zones toe zoals hierboven
 }
 
 Citizen.CreateThread(function()
-    while true do
+    while state do
         Citizen.Wait(0) -- Wacht 1 seconde voordat opnieuw te controleren
 
         local playerCoords = GetEntityCoords(PlayerPedId())
-        
+
         for _, zone in ipairs(zones) do
             local distanceToZone = #(zone.center - playerCoords)
 
