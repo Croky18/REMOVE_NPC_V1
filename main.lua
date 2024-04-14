@@ -1,5 +1,5 @@
---gemaakt door croky#8472--> bij problemen DM mijn op discord
---made by croky#8472--> if you have any problems DM my on discor
+--gemaakt door space_monkey56--> bij problemen DM mijn op discord
+--made by space_monkey56--> if you have any problems DM my on discor
 
 local zones = {
     {
