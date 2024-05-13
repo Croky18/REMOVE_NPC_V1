@@ -1,13 +1,13 @@
-# clearareaNPC
-#clearareaNPC V2.0
+# Remove-NPC
+#Remove-NPC V2.0
 
 
-gemaakt door croky#8472--> bij problemen DM mijn op discord
-made by croky#8472--> if you have any problems DM my on discord
+gemaakt door Space-Monkey--> bij problemen DM mijn op discord
+made by Space-Monkey--> if you have any problems DM my on discord
 
 
 INFO
-dit scripts werk op standeloon dat wil zeggen dat het werk op framwork 
+dit scripts werk op standalone dat wil zeggen dat het werk op framwork 
 QBCORE ESX
 --------------------------------------------
 INFO
@@ -23,4 +23,4 @@ this script is free will not be sold
 
 
 -update-
-ClearAreaNPC V2.0
+Remove-NPC V2.0
