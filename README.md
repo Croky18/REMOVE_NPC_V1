@@ -1,5 +1,5 @@
 # Remove-NPC
-#Remove-NPC V2.0
+#Remove-NPC V1
 
 
 gemaakt door Space-Monkey--> bij problemen DM mijn op discord
@@ -23,4 +23,4 @@ this script is free will not be sold
 
 
 -update-
-Remove-NPC V2.0
+Remove-NPC V1
