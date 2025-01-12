@@ -1,4 +1,4 @@
-# Remove-NPC
+# Remove-NPC [outdated script]
 #Remove-NPC V1 [outdated script]
 
 
