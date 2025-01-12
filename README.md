@@ -1,5 +1,5 @@
 # Remove-NPC
-#Remove-NPC V1
+#Remove-NPC V1 [outdated script]
 
 
 gemaakt door Space-Monkey--> bij problemen DM mijn op discord
